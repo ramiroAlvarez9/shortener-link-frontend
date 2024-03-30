@@ -1,4 +1,4 @@
-import '../app/globals.css';
+import '../app/globals.scss';
 
 export const metadata = {
   title: 'Next.js',

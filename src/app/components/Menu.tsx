@@ -25,8 +25,9 @@ export default function Menu() {
 
   return (
     <>
-      <HamburguerMenu openMenu={openMenu} />
-
+      <header>
+        <HamburguerMenu openMenu={openMenu} />
+      </header>
       <Sidebar
         aria-label="Sidebar with multi-level  "
         className="w-full h-screen"
@@ -42,10 +43,7 @@ export default function Menu() {
 
         <Sidebar.Items>
           <Sidebar.ItemGroup>
-            
-            <div className="border-solid border border-gray-400 w-full">
-                
-            </div>
+            <div className="border-solid border border-gray-400 w-full"></div>
 
             <Sidebar.Item href="#" icon={HiHome}>
               Home

@@ -13,7 +13,7 @@ const HeaderMenu = ({ closeMenu }: Props) => {
           <CloseIcon />
         </div>
         <div className="mt-10 "> 
-          <Button color="blue" className="w-full ">
+          <Button color="blue" className="w-full" href = '/createlink'>
             Create new link
           </Button>
         </div>

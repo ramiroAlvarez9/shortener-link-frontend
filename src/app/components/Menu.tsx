@@ -45,18 +45,28 @@ export default function Menu() {
           <Sidebar.ItemGroup>
             <div className="border-solid border border-gray-400 w-full"></div>
 
-            <Sidebar.Item href="#" icon={HiHome}>
+            <Sidebar.Item href="/" icon={HiHome}>
+
               Home
+
             </Sidebar.Item>
-            <Sidebar.Item href="#" icon={HiLink} labelColor="dark" label="0">
+
+
+
+            <Sidebar.Item href="/links" icon={HiLink} labelColor="dark" label="0">
+
               Links
             </Sidebar.Item>
-            <Sidebar.Item href="#" icon={HiQrcode}>
+
+
+
+            <Sidebar.Item href="/" icon={HiQrcode}>
               QR Codes
             </Sidebar.Item>
+
           </Sidebar.ItemGroup>
-        </Sidebar.Items>
-      </Sidebar>
+        </Sidebar.Items >
+      </Sidebar >
     </>
   );
 }

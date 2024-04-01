@@ -1,4 +1,4 @@
-import Card from "@/app/components/Card";
+import HorizontalCard from "@/app/components/HorizontalCard";
 
 
 export default function Main() {
@@ -12,13 +12,13 @@ export default function Main() {
             Your <br />links <br />platform.
           </h1>
 
-          <Card
+          <HorizontalCard
             urlImageLink="https://images.vexels.com/media/users/3/136294/isolated/preview/4172fc9833fe18b5f8669b148713a189-link-icon.png"
             title="Create your link"
             buttonTitle="Create"
             href = '/createlink'
           />
-          <Card
+          <HorizontalCard
             urlImageLink="https://images.vexels.com/media/users/3/136294/isolated/preview/4172fc9833fe18b5f8669b148713a189-link-icon.png"
             title="See your links"
             buttonTitle="View "

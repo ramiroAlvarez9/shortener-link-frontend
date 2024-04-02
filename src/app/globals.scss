@@ -21,7 +21,9 @@ $titlesColor : #273144;
   }
 }
 
-body {}
+body {
+  
+}
 
 .hamburgerMenu {
   background-color: $backgroundMenu;
@@ -44,7 +46,10 @@ body {}
 
     }
   }
+
+  
 }
+
 
 @layer utilities {
   .text-balance {

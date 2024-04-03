@@ -17,9 +17,8 @@ export default function Card({
   return (
     <>
       <div
-        //style={{ width: '85%', height: '20%' }}
 
-        className="home__card border border-solid border-gray-300 shadow-sm h-1/5 w-5/6 rounded mt-10 flex sm:h-3/4 sm:w-2/3 sm:mt-7 sm:mb-4 "
+        className="home__card border border-solid border-gray-300 shadow-sm h-1/6 w-5/6 rounded mt-10 flex sm:h-3/4 sm:w-2/3 sm:mt-7 sm:mb-4 md:h-1/5"
       >
         <div
           style={{ borderRight: "1px solid #ede8e8" }}

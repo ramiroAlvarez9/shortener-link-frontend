@@ -9,7 +9,7 @@ const HeaderMenu = ({ closeMenu }: Props) => {
   return (
     <>
       <div className="headerMenu w-full h-24 mb-10 ">
-        <div onClick={() => closeMenu()} className="ml-2">
+        <div onClick={() => closeMenu() } className="ml-2">
           <CloseIcon />
         </div>
         <div className="mt-10 "> 

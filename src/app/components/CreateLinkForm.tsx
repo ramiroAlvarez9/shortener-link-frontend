@@ -4,7 +4,7 @@ import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 
 export default function CreateLinkForm() {
   return (
-    <form className="flex max-w-md flex-col gap-4 mt-10">
+      <form className="flex max-w-md flex-col gap-4 mt-10 sm:mb-10 ">
       <div>
         <div className="mb-2 block">
           <Label htmlFor="email1" value="Destination" />

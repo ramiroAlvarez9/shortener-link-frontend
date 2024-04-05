@@ -42,13 +42,39 @@ body {
   .createlink__section {
     .createlink__title {
       color : $titlesColor;
-
-
     }
+  }
+  .navInMobile{
+    display: inherit;
+  }
+  .navInDesktop{
+    display: none;
   }
 
   
 }
+@media (min-width: 1200px) { 
+  .home__section{
+    margin-left: 20%;
+    width: 80%;
+  }
+  .createlink__section{
+    margin-left: 20%;
+    width: 80%;
+  }
+  .section__links{
+    width: 80%;
+    margin-left: 20%;
+  }
+  .navInMobile{
+    display: none;
+  }
+  .navInDesktop{
+    display: block;
+  }
+
+ }
+
 
 
 @layer utilities {

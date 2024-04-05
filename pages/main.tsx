@@ -4,7 +4,7 @@ import HorizontalCard from "@/app/components/HorizontalCard";
 export default function Main() {
   return (
     <>
-      <section className="home__section flex justify-center w-screen h-screen" >
+      <section className="home__section flex justify-center w-screen h-screen lg:w-4/5" >
 
         <div  className="home__section--container h-full w-3/4 flex items-center flex-col sm:h-1/2  ">
 

@@ -1,16 +1,17 @@
 import HamburguerMenuIcon from "./HamburguerMenuIcon";
 import Image from "next/image";
 import Logo from '../../assets/logo.png'
+
 interface Props {
-  openMenu: void;
+  openMenu: React.MouseEventHandler<HTMLDivElement> | any;
 }
 
-const hamburguerMenu = ({ openMenu }: Props) => {
+const HamburguerMenu = ({ openMenu }: Props) => {
   return (
     <>
       <div className="hamburgerMenu w-full h-10 flex justify-between items-center">
         
-        <div className="button__container " onClick={() => openMenu()}>
+        <div className="button__container " onClick={ () => openMenu()}>
           <HamburguerMenuIcon />
         </div>
 
@@ -26,4 +27,4 @@ const hamburguerMenu = ({ openMenu }: Props) => {
   );
 };
 
-export default hamburguerMenu;
+export default HamburguerMenu;

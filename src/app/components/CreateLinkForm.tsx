@@ -15,7 +15,7 @@ export default function CreateLinkForm() {
         <div className="mb-2 block">
           <Label htmlFor="password1" value="Title" />
         </div>
-        <TextInput id="password1" type="password" required />
+        <TextInput id="" type="text" required />
       </div>
       <div className="flex items-center gap-2">
         <Checkbox id="remember" />

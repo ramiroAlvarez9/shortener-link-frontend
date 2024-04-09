@@ -8,8 +8,9 @@ const Links: NextPage<Props> = ({}) => {
     <>
       <section  className="section__links flex justify-center">
        
-       <div style={{width: '75%', height: '100%'}} className="links__container">    
-        <h2 style={{ fontWeight: 700 ,fontSize: '30px' }} className="createlink__title mt-10">
+       <div className="links__container w-3/4 h-full">    
+        <h2 style={{ fontWeight: 700 ,fontSize: '30px' }} className="createlink__title mt-10 lg:hidden
+">
             Links
         </h2>
           <CTALinkCard />

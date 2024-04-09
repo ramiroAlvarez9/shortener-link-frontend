@@ -6,7 +6,7 @@ interface Props {}
 const CTALinkCard: NextPage<Props> = ({}) => {
   return (
     <>
-      <Card className="max-w-sm mt-10">
+      <Card className="max-w-sm mt-10 lg:w-2/5 lg:ml-0">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Perfil de Linkedin
         </h5>

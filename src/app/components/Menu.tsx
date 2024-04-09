@@ -1,6 +1,7 @@
 "use client";
 
 import { Sidebar } from "flowbite-react";
+import {useTheme} from "next-themes";
 import {
   HiHome,
   HiLink,
@@ -30,6 +31,7 @@ export default function Menu() {
   return (
     <>
       <header className="lg:hidden ">
+
         <HamburguerMenu openMenu={openMenu} />
       </header>
       
